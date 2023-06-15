@@ -1,0 +1,23 @@
+﻿
+
+<div class="block-reg background-white">
+    <h4 class="center">Добавление тега </h4>
+    <form class="frm" method="post" asp-controller="Register" asp-action="AddTag">
+        <div>
+            <div class="mrgn">
+                <label >Название</label><br />
+                <input  class="form-control" />
+                @*<span asp-validation-for="Email" class="text-danger"></span>*@
+            </div>
+        </div>
+        
+        <div>
+            <br />
+            <input class="btn btn-sm btn-primary" type="submit" value="Добавить" />
+        </div>
+
+    </form>
+
+    
+</div>
+

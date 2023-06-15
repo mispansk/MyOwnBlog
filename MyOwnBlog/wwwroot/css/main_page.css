@@ -1,0 +1,46 @@
+﻿.main {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    padding: 20px;
+}
+
+
+.side {
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    padding: 20px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #edeef0;
+}
+
+.topnav {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+.background-main {
+    background-color: #edeef0;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.frm {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}

@@ -1,0 +1,35 @@
+﻿@model MyOwnBlog.ViewModels.Account.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<h2>Регистрация нового пользователя</h2>
+<form class="frm" method="post" asp-controller="Register" asp-action="Register">
+    <div>
+        <label asp-for="FirstName">Имя</label><br />
+        <input asp-for="FirstName" class="form-control"/>
+    </div>
+    <div>
+        <label asp-for="LastName">Фамилия</label><br />
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Email"></label><br />
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Password">Пароль</label><br />
+        <input asp-for="Password" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="PasswordConfirm">Подтверждение пароля</label><br />
+        <input asp-for="PasswordConfirm" class="form-control" />
+    </div>
+    <div>
+        <br />
+        <input class="btn btn-sm btn-primary" type="submit" value="Регистрация" />
+    </div>
+</form>
+
